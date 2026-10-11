@@ -13,16 +13,16 @@ A lightweight GitHub repository that launches an AI image-generation UI in Googl
 - No model weights are stored in this repository; models are downloaded at runtime.
 
 ## Run in Google Colab
-1. Upload this repository to your GitHub account, or use the notebook in `AI_Image_Generator.ipynb`.
+1. Open the notebook directly using the Colab link above, or upload this repository to your own GitHub account.
 2. Open the notebook in Colab.
 3. In **Runtime → Change runtime type**, select a GPU runtime if available.
 4. Run the cells from top to bottom.
 5. Use the Gradio UI shown at the bottom of the notebook.
 
 ## Open the notebook directly from GitHub
-After publishing the repository, replace `YOUR_GITHUB_USERNAME` below with your GitHub username:
+Open this repository's notebook directly in Colab:
 
-`https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/colab-ai-image-generator/blob/main/AI_Image_Generator.ipynb`
+`https://colab.research.google.com/github/acherlab-ai/colab-ai-image/blob/main/AI_Image_Generator.ipynb`
 
 ## Notes
 - Colab free GPU availability, runtime duration, and memory are controlled by Google and are not guaranteed.
