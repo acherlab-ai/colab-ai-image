@@ -1,0 +1,7 @@
+diffusers>=0.30.0
+transformers>=4.41.0
+accelerate>=0.30.0
+safetensors
+gradio>=4.44.0
+Pillow
+psutil
