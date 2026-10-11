@@ -1,0 +1,20 @@
+{
+  "selection_policy": [
+    {
+      "min_vram_gb": 12,
+      "model": "stabilityai/stable-diffusion-xl-base-1.0",
+      "label": "SDXL Base 1.0"
+    },
+    {
+      "min_vram_gb": 6,
+      "model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+      "label": "Stable Diffusion 1.5"
+    },
+    {
+      "min_vram_gb": 0,
+      "model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+      "label": "SD 1.5 low-memory fallback"
+    }
+  ],
+  "note": "Heuristic defaults; adjust after testing on the target Colab runtime."
+}
